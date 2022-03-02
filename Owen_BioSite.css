@@ -34,7 +34,9 @@ ul {
   }
 
 .title {
-    text-align: center;
+    position: fixed;
+    top: 250px;
+    left: 800px;
     color: black;
     font-weight: 400;
     font-family: 'Noto Serif', serif;
@@ -42,10 +44,10 @@ ul {
 }
 
 .main-content {
-  position:relative;
-  top: 0px; 
-  left: 250px; 
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  position:fixed;
+  bottom: 340px; 
+  left: 260px; 
+  box-shadow: 10px 8px 16px 0 rgba(0, 0, 0, 0.2);
   width: 50%;
   transition: 0.3s;
   width: 70%;
@@ -57,10 +59,10 @@ ul {
 
 
 #container {
-    margin: -17% 0% 0% 0%;
-    padding: 20px;
-
-}
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+  }
 
 footer {
   background-color: #BAB8B6;
@@ -113,7 +115,7 @@ figure {
 .topleft{
   position:fixed; 
 	top: 300px; 
-	left: 450px; 
+	left:475px; 
   }
 
 .about-right{
@@ -127,3 +129,43 @@ figure {
 	bottom: 30px; 
 	left: 190px; 
 }
+
+.fishing-content {
+  position:relative;
+  bottom: 180px; 
+  left: 250px; 
+  box-shadow: 10px 8px 16px 0 rgba(0, 0, 0, 0.2);
+  width: 50%;
+  transition: 0.3s;
+  width: 50%;
+  font-size: larger;
+  color:#6E594B;
+  word-spacing: .25px;
+  line-height: 1.25;
+}
+
+.league-content{
+    position:relative;
+    bottom: 0px; 
+    left: 250px; 
+    box-shadow: 10px 8px 16px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    transition: 0.3s;
+    width: 50%;
+    font-size: larger;
+    color:#6E594B;
+    word-spacing: .25px;
+    line-height: 1.25;
+  }
+
+  .hobby-top{
+    position:fixed; 
+    top: 275px; 
+    right: 100px; 
+  }
+  
+  .hobby-bottom{
+     position:fixed; 
+    bottom: 30px; 
+    right: 100px; 
+  }
